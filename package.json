@@ -1,0 +1,85 @@
+{
+  "name": "smart-saint-gobain",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "next start",
+    "dev": "next dev -p 3002",
+    "build": "next build && next export",
+    "commit": "git add . && cz",
+    "test": "jest --silent",
+    "test:errors": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@tailwindcss/forms": "^0.2.1",
+    "axios": "^0.20.0",
+    "clsx": "^1.1.1",
+    "formik": "^2.1.5",
+    "lodash": "^4.17.21",
+    "next": "^10.0.0",
+    "next-seo": "^4.7.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.11.0",
+    "react-query": "^3.6.0",
+    "react-select": "^3.1.0",
+    "react-text-mask": "^5.4.3",
+    "typescript": "^4.0.2",
+    "yup": "^0.29.3",
+    "zustand": "^3.3.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@testing-library/dom": "^7.29.1",
+    "@testing-library/jest-dom": "^5.11.8",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.6.0",
+    "@types/jest": "^26.0.19",
+    "@types/node": "^14.6.4",
+    "@types/react": "^16.9.45",
+    "@zeit/next-css": "^1.0.1",
+    "babel-jest": "^26.6.3",
+    "commitizen": "^4.2.3",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "jest": "^26.6.3",
+    "next-purgecss": "^4.0.0",
+    "postcss": "^8.2.4",
+    "postcss-flexbugs-fixes": "4.2.1",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^2.0.2"
+  },
+  "license": "MIT",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog",
+      "types": {
+        "feat": {
+          "description": "A new feature (minor)",
+          "title": "Features"
+        },
+        "fix": {
+          "description": "A bug fix (patch)",
+          "title": "Fixes"
+        },
+        "merge": {
+          "description": "A merge of branches and codes (patch)",
+          "title": "merges"
+        },
+        "docs": {
+          "description": "Documentation only changes (patch)",
+          "title": "Documentation changes"
+        },
+        "test": {
+          "description": "Adding missing tests or correcting existing tests (patch)",
+          "title": "Tests"
+        },
+        "other": {
+          "description": "Other kinds of commit",
+          "title": "Other"
+        }
+      }
+    }
+  }
+}
