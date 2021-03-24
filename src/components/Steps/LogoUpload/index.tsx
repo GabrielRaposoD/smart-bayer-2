@@ -105,15 +105,7 @@ export const LogoUpload: SmartStep = () => {
           </div>
         </div>
       </div>
-      <button
-        type="button"
-        onClick={() => {
-          formik.setFieldValue('foto1', null)
-          formik.setFieldValue('foto2', null)
-        }}
-      >
-        Reset
-      </button>
+
       <div className="w-full mt-6">
         <Stepper
           buttonState={
