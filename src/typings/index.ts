@@ -32,6 +32,19 @@ export interface Company {
   products: Product[];
 }
 
+export interface Defensive{
+  id:number;
+  name: string;
+  photoUri: string;
+  products: Products[];
+}
+
+export interface Products{
+  name: string;  
+  secondPhotoUri: string;
+}
+
+
 export interface Template {
   id: number;
   type: string;

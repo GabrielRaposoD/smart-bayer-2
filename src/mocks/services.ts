@@ -32,7 +32,7 @@ export const services: Service[] = [
     description: 'Gestão de Pessoas',
     name: 'Tenha mais eficiência com o desenvolvimento da sua equipe',
     photoUri:
-      'https://d20aasqov94ke3.cloudfront.net/gallery/images/2f4fa01826d316b40eeb565e61c6357789506dfa.jpg?Expires=1674334141&Signature=Qm1oHwZXu679s9GPSzOX-XsXlML9TV0TWtCzM--vfkPUyHQvxHh8Q2uWpC7Ij2cfVx464ImV99~vCLYrQb14I9tPvAOYDptB5hxnZZ-tZ8Rm4OIYU3ccMkaFBq~Orl4YwVga8s3eOdCABPc2m-VlkauLcfr2afQmOi-8ASq6lZhOErNoWVFXGVsWrt4S2PtqPaINAVUOQaB3LywAIC62mzMD4C~sz93DtN2WGmws-0aFAw6VFNfafROLXfffdHdApn5hU2oA7Pcg~BI7kPA63w9GV3ndzx7YqWwyzI-ibrUh3xs8piV30nHP0J7WRkz~0JOA10-dh2dLlKiTa8jkdA__&Key-Pair-Id=APKAJ22WF26BLHIHK4LQ',
+      'https://d20aasqov94ke3.cloudfront.net/gallery/images/a542cf905eca60d162e1b1dac288e54fe3e11989.jpg?Expires=1679165152&Signature=OPLBMar5LKxwOupvpKFic6VfOSL-ALJaWlioDImi2m7yqJQBYxymTbzflB~ieajCC-DdBJMKJqwE6o~YKSzmmer-pBUay~1VPMPMUzP~EDExfbQ-n2kjV03zFXlSUbTnSEPc5isZkmQdnVACgJW17WnQ~U2aTzeXAN43ISwCfDBpLy5PbvcCM1XRw7I8Yhxu5md1oI8vPNbH6lAxi64HK5GD2sURmEZqtc801sQG713yWcKlpNTnFcHGtaKJ3DtmKMcUFvI6Ck-iDsUqkK2C0Xb2mhBwlUr9CFhfjzGY3OkOF4csZnzmtJmS7QT-JoTjF3r1qdkoigfG1jjsqTdhOw__&Key-Pair-Id=APKAJ22WF26BLHIHK4LQ',
   },
   {
     description: 'Patrulha',
