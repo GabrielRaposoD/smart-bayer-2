@@ -1,6 +1,7 @@
 // Module Imports
 import React, { useEffect } from 'react';
 import { QueryClient, QueryClientProvider, useQuery } from 'react-query';
+import { useFormikContext } from 'formik';
 
 // Components Import
 import { Logo } from '@components/index';
@@ -24,6 +25,8 @@ const LoadingVideo: SmartStep = ({ currentStep, setCurrentStep }) => {
 
 const LoadingVideoComponent: SmartStep = ({ setCurrentStep, currentStep }) => {
   const myHeaders = new Headers();
+  const formik = useFormikContext<any>();
+
   myHeaders.append('external-id', 'e5e16966-0218-46ad-a042-04241db0a9de');
   myHeaders.append('token', 'fe96c4647e55a2496cc3fade6e95b873');
   const requestOptions = {
@@ -36,12 +39,12 @@ const LoadingVideoComponent: SmartStep = ({ setCurrentStep, currentStep }) => {
     'repoData',
     () =>
       fetch(
-        `https://api.chiligumvideos.com/api/videos/${video.id}`,
+        `https://restless-boat-911d.gabriel-raposo.workers.dev/?https://api.chiligumvideos.com/api/videos/${formik.values.video.id}`,
         requestOptions
       ).then((res) => res.json()),
     {
       refetchInterval: 5000,
-      enabled: Boolean(video.id),
+      enabled: Boolean(formik.values.video.id),
       cacheTime: 0,
       keepPreviousData: false,
       refetchOnMount: true,
@@ -51,6 +54,7 @@ const LoadingVideoComponent: SmartStep = ({ setCurrentStep, currentStep }) => {
 
   useEffect(() => {
     if (data && data.processed) {
+      formik.setFieldValue('video', data);
       setCurrentStep(currentStep + 1);
     }
   }, [data]);

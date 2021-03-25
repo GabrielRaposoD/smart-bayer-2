@@ -7,10 +7,11 @@ import { MainLayout } from '@layout/index';
 // Components Import
 import { StepsController } from '@components/StepsController';
 import { items as StepItems } from 'mocks/screenComponents';
-import { Form } from 'formik';
+import { Form, useFormikContext } from 'formik';
 import { StepContext } from 'context/formStepsContext';
 
 import { templates } from '@mocks/templates';
+import { createVideo } from 'service/video.service';
 
 const initialValues = {
   template: null,
@@ -19,16 +20,21 @@ const initialValues = {
   oportunity: null,
   service: null,
   experience: null,
+  defensive: null,
+  defensiveProduct: null,
+  foto1: null,
+  foto2: null,
   farmerName: '',
   phone: '',
   name: '',
   email: '',
+  video: { id: '' },
 };
 
 const IndexPage: React.FC = () => {
-  const video = {};
-  async function handleSubmit(values) {
-    console.log('submit', values);
+  async function handleSubmit(values, { setFieldValue }) {
+    const data = await createVideo({ ...values });
+    return setFieldValue('video', data);
   }
 
   return (
@@ -44,21 +50,30 @@ const IndexPage: React.FC = () => {
           <StepContext.Provider
             value={{ currentStep: formStep, setCurrentStep }}
           >
-            <MainLayout
-              img={item.img}
-              isCover={item.isCover}
-              hasCard={item.hasCard}
-              cardImg={video.thumbnail_url || item.cardImg}
-              hasMobileImg={item.hasMobileImg}
-              cardWide={item.cardWide}
-            >
+            {template.steps[formStep] === 11 ? (
               <Form className='h-full'>
                 <item.Component
                   currentStep={formStep}
                   setCurrentStep={setCurrentStep}
                 />
               </Form>
-            </MainLayout>
+            ) : (
+              <MainLayout
+                img={item?.img}
+                isCover={item?.isCover}
+                hasCard={item?.hasCard}
+                cardImg={values?.video.thumbnail_url || item?.cardImg}
+                hasMobileImg={item?.hasMobileImg}
+                cardWide={item?.cardWide}
+              >
+                <Form className='h-full'>
+                  <item.Component
+                    currentStep={formStep}
+                    setCurrentStep={setCurrentStep}
+                  />
+                </Form>
+              </MainLayout>
+            )}
           </StepContext.Provider>
         );
       }}

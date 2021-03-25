@@ -4,12 +4,17 @@ import axios from 'axios';
 export const createVideo = async ({
   product,
   template,
-  firstName,
-  fullName,
+  farmerName,
+  name,
   phone,
   company,
   service,
   experience,
+  oportunity,
+  defensive,
+  defensiveProduct,
+  foto1,
+  foto2,
 }) => {
   const myHeaders = new Headers();
   myHeaders.append('external-id', 'e5e16966-0218-46ad-a042-04241db0a9de');
@@ -17,42 +22,45 @@ export const createVideo = async ({
 
   var formdata = new FormData();
   formdata.append('[video]name', 'smart_bayer');
-  formdata.append('[video]track_id', template.value.trackId);
-  formdata.append('[video]template_id', template.value.id);
-  formdata.append('[video][data]texto_nome_agricultor_01', firstName);
-  formdata.append('[video][data]texto_nome_agricultor_02', firstName);
-  formdata.append('[video][data]texto_contato_01', fullName);
-  formdata.append('[video][data]texto_contato_02', phone);
+  formdata.append('[video]track_id', template.trackId);
+  formdata.append('[video]template_id', template.id);
+  formdata.append('[video][data]text_agricultor_01', farmerName);
+  formdata.append('[video][data]text_agricultor_02', farmerName);
+  formdata.append('[video][data]text_oportunidade_01', oportunity);
+  formdata.append('[video][data]text_rtv_01', name);
+  formdata.append('[video][data]text_telefone_01', phone);
 
   if (company) {
-    formdata.append('[video][data]texto_produto_01', company.value.description);
-    formdata.append('[video][data]foto_produto_01', product.value.photoUri);
-    formdata.append('[video][data]titulo_hibrido_01', product.value.name);
-    formdata.append('[video][data]texto_hibrido_01', product.value.description);
+    formdata.append('[video][data]text_produto_01', product.name);
+    formdata.append('[video][data]image_produto_01', product.photoUri);
+  }
+
+  if (defensive) {
+    formdata.append('[video][data]image_produto_02', defensive.photoUri);
+    formdata.append(
+      '[video][data]image_logo_01',
+      defensiveProduct.secondPhotoUri
+    );
   }
 
   if (service) {
-    formdata.append(
-      '[video][data]titulo_servico_01',
-      service.value.description
-    );
-    formdata.append('[video][data]texto_servico_01', service.value.name);
-    formdata.append('[video][data]foto_servico_01', service.value.photoUri);
+    formdata.append('[video][data]text_servico_01', service.name);
+    formdata.append('[video][data]image_servico_01', service.photoUri);
   }
 
   if (experience) {
-    formdata.append(
-      '[video][data]texto_experiencia_01',
-      experience.value.description
-    );
-    formdata.append(
-      '[video][data]texto_experiencia_02',
-      experience.value.secondDescription
-    );
-    formdata.append(
-      '[video][data]foto_experiencia_01',
-      experience.value.photoUri
-    );
+    formdata.append('[video][data]text_experiencia_01', experience.description);
+    formdata.append('[video][data]image_experiencia_01', experience.photoUri);
+  }
+
+  if (foto1) {
+    const photo1 = await uploadImage(foto1);
+    formdata.append('[video][data]image_visita_01', photo1.url);
+  }
+
+  if (foto2) {
+    const photo2 = await uploadImage(foto2);
+    formdata.append('[video][data]image_visita_02', photo2.url);
   }
 
   const requestOptions = {
@@ -63,7 +71,31 @@ export const createVideo = async ({
   };
 
   const data = await fetch(
-    'https://api.chiligumvideos.com/api/videos',
+    'https://restless-boat-911d.gabriel-raposo.workers.dev/?https://api.chiligumvideos.com/api/videos',
+    requestOptions
+  ).then((response) => response.json());
+
+  return data;
+};
+
+export const uploadImage = (photo) => {
+  var myHeaders = new Headers();
+  myHeaders.append('external-id', 'e5e16966-0218-46ad-a042-04241db0a9de');
+  myHeaders.append('token', 'fe96c4647e55a2496cc3fade6e95b873');
+
+  var formdata = new FormData();
+  formdata.append('[asset]name', photo.name);
+  formdata.append('[asset]attachment', photo, photo.name);
+
+  const requestOptions = {
+    method: 'POST',
+    headers: myHeaders,
+    body: formdata,
+    redirect: 'follow' as RequestRedirect,
+  };
+
+  const data = fetch(
+    'https://restless-boat-911d.gabriel-raposo.workers.dev/?https://api.chiligumvideos.com/api/assets',
     requestOptions
   ).then((response) => response.json());
 

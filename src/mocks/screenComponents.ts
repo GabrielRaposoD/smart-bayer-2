@@ -73,7 +73,7 @@ export const items: ScreenComponent[] = [
     Component: LogoUpload,
     validation: LogoUpload.validation,
     hasCard: true,
-    cardImg: 'img/preview-address.png',
+    cardImg: 'img/preview-logo.png',
   },
   {
     img: '/img/background-main-3.png',

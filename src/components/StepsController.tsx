@@ -39,9 +39,10 @@ export const StepsController = ({
         items[steps[currentStep] - 1]?.validation || emptyYupValidation
       }
       initialValues={initialValues}
+      enableReinitialize
       onSubmit={async (values, actions) => {
-        if (currentStep === steps.length - 1 && currentStep > 1) {
-          return onSubmit(values, actions);
+        if (currentStep === steps.length - 3 && currentStep > 1) {
+          onSubmit(values, actions);
         }
         if (values.template) {
           const template = templates.find((t) => t.id === values.template?.id);

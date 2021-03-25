@@ -4,10 +4,13 @@ import React, { useState } from 'react';
 // Components Import
 import { Logo } from '@components/index';
 import downloadUrl from '@utils/download-url';
-import { sendVideoEmail } from 'service/video.service';
 import { SmartStep } from '@typings/index';
+import { sendVideoEmail } from 'service/video.service';
+import { useFormikContext } from 'formik';
 
-const VideoDone: SmartStep = () => {
+const VideoDone: SmartStep = ({ setCurrentStep }) => {
+  const formik = useFormikContext<any>();
+  console.log(formik.values.video);
   return (
     <div className='md:px-0 md:min-h-0 md:pb-0 flex flex-col items-start justify-between h-full min-h-screen px-6 pb-10'>
       <div className='md:mt-0 mt-6'>
@@ -22,18 +25,23 @@ const VideoDone: SmartStep = () => {
         </h3>
         <div className='w-full'>
           <div className='mt-6'>
-            <button
-              className='border-primary bg-primary md:w-2/3 w-full py-2 text-lg font-normal text-white border border-solid rounded-full'
-              onClick={() => downloadUrl('placeholder', 'placeholder')}
+            <p
+              className='border-primary bg-primary md:w-2/3 flex flex-row items-center justify-center w-full py-2 text-lg font-normal text-center text-white border border-solid rounded-full cursor-pointer'
+              onClick={() =>
+                downloadUrl(formik.values.video.url, formik.values.farmerName)
+              }
             >
               Baixar vídeo
-            </button>
+            </p>
           </div>
         </div>
       </div>
       <p
         className='text-darkgreen mt-3 text-lg font-medium underline cursor-pointer'
-        onClick={() => {}}
+        onClick={() => {
+          formik.resetForm();
+          setCurrentStep(0);
+        }}
       >
         Criar um novo vídeo
       </p>

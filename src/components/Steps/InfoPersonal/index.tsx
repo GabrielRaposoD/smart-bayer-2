@@ -25,7 +25,7 @@ const InfoPersonal: SmartStep = ({ currentStep, setCurrentStep }) => {
             </h3>
             <div className='mt-6 space-y-1 text-base font-medium text-gray-600'>
               <label>Seu primeiro nome</label>
-              <TextInput name='fullname' placeholder='Digite' />
+              <TextInput name='name' placeholder='Digite' />
             </div>
             <div className='mt-6 space-y-1 text-base font-medium text-gray-600'>
               <label>Seu e-mail </label>
@@ -67,7 +67,7 @@ const InfoPersonal: SmartStep = ({ currentStep, setCurrentStep }) => {
 };
 
 InfoPersonal.validation = Yup.object({
-  fullname: Yup.string()
+  name: Yup.string()
     .max(17, 'O Nome não pode passar de 17 caracteres')
     .required('Insira seu nome completo'),
   email: Yup.string()
