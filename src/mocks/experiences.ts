@@ -4,67 +4,57 @@ export const experiences: Experience[] = [
   {
     name: 'Agtech Garage - Imersão para o futuro',
     description:
-      'Conheça soluções inovadoras com as principais startups do Agro*',
-    secondDescription: '* para clientes a partir de 1 estrela no Impulso Bayer',
+      'Agtech Garage, soluções inovadoras com as principais startups do Agro',
     photoUri:
-      'https://d20aasqov94ke3.cloudfront.net/gallery/images/bf75cb58d951cabc907f7e6fa20214588c3ebe11.jpg?Expires=1674334726&Signature=tZJFFBlLK6D7eA9yBw3RykCYpwMOoOQl3ENt2910GFx8KSofCnKIcKa5LEOy3YC~cUhgjo6Vi3hMT1H1t2vOh~hMM8OrwrZuEBrNJ67~pEbC96mEtH~ek58xQAHiZAF~1o7uAcYSMSyLF0Fh6yONThX6tN0v~T1agQBhuZXJdiRgKVEoEo58xn0STLMF0gULyA1R3kaBzZTj42YdRJI1L2aURltYXrJupwRFH0GyHBjEcvTwl0DKyLVZ~3P~0skJnhbhUYHDayfr-lGrY5iQvP3ZZ1qPL15jMmB5gtAIs37-qm~EditZ5q8x4qaUIQ5~lTpVLVJwFzrnWBqZksUaDg__&Key-Pair-Id=APKAJ22WF26BLHIHK4LQ',
+      'https://d20aasqov94ke3.cloudfront.net/gallery/images/7bed697b70181553c09a9eaa02dd200099014add.jpg?Expires=1679168121&Signature=NzGo2jTRfvkpvdm3puDG0mw3JFnr4x0NoIz3zMAqwuGnsU2iUpsaKFcIVVzP8cd2iDn1tf12kGGHBiJHfitPcdy1ySvC4PuuKcyFodhEKL8sAwFALBBDVJUk-PC3yH5bw06bUqn6W9pnaGnoTCvx~FLHS5sSi7B7~ymeLZo4JUD26pdsqksVwYDhWNZxON7nndW5ZVd8ypwaPTIno9fuz1SvYJ9SPuQK4VjvTxwXjsxscpuHd2gJdfnLnhnMJ-lWFoARTAJ9Sd1CgpV7jRMdbJznlw77YPK-Xcc~4A3YGk-Xee349RlaYdYdVkypusYAs-LzbR94MKTB03ILmPaB-g__&Key-Pair-Id=APKAJ22WF26BLHIHK4LQ',
   },
   {
     name: 'Bônus de 50 mil pontos para resgate de serviços',
     description:
-      'Ganhe 50 mil pontos de bônus para resgatar serviços selecionados*',
-    secondDescription: '* para clientes 5 estrelas no Impulso Bayer',
+      'Bônus de 50 mil pontos para serviços',
     photoUri:
-      'https://d20aasqov94ke3.cloudfront.net/gallery/images/8cae63c8583821af608f739dd3d72003f28105da.jpg?Expires=1674334726&Signature=PfzRqPtURWBC6-zHf0dyPm8ZtFiNDYjmt1p9MGd-M8cvZ7fpDb5Yqvwc4w4CsneHDV4HcpLlXAjDWHSNw6PBvcgGNf5MCz4-Ptk1hvwj4kOY663koZ-JCi8maWu1ia7VhYgslvp9zDCPzBLzeTalJG24zdw553Rl~HxA7qKEbhimEObx-IDII-KznRbztE47f~qPzeuInNMlezQCiAMNLMDsXGBFYQP2Tkk4QmHCwcbxucOz3siKgTB~SVkDMBtOBQm7qmZ-QXYn81o032mD4ufFl0FJWVq2UHXlwoAbN97lHyBR6DzDqmtBKn0ySTP0-DNruDd2rYqAnW~iCj6Egw__&Key-Pair-Id=APKAJ22WF26BLHIHK4LQ',
+      'https://d20aasqov94ke3.cloudfront.net/gallery/images/eabbce8bce5609e063fc255c22839e123afd5cd7.jpg?Expires=1679168121&Signature=Fismu84XZ4KzYb1FTxQrtTb6Bk7lS~NWNvj5NFyqSOHE4rq4NKNts~zGaFwhBbXUJcvs6Q-ie1lbdZFm98uWGydKr~KXYD6tfxfZIshTRnCtst0nQmZr~l775EbADDPeYyJSMywtxVF7k5EZUuO9dVeocQfj5vbMiRA59-YYa5idhOLNngiQ~sCGWLrovQgwRFYCPaEErTYOFYm0IRj3Ae7XzdrVPmGk7qGH0cJLo8q~YdA-1E2ZwHDhu9uYq2vbLjoLj-Ww82XeTBJZxGNQduGOeUFyRRCNuYQ7t0zHoaSuAwTc5uKsIYOgYVsdEuCZu5r5YTTm1NWD1yoXh7d2Ag__&Key-Pair-Id=APKAJ22WF26BLHIHK4LQ',
   },
   {
-    name: 'Plano de Entrada do Climate Field View ',
+    name: 'Plano de Entrada do Climate FieldView ',
     description:
-      'Conte com a inteligência de uma plataforma de agricultura digital*',
-    secondDescription: '* para clientes 1 e 2 estrelas no Impulso Bayer',
+      'Plano de Entrada do Climate Field View™, a inteligência de uma plataforma de agricultura digital',    
     photoUri:
-      'https://d20aasqov94ke3.cloudfront.net/gallery/images/31b57debec3450ec36f8b432371d3d9959bc249b.jpg?Expires=1674334992&Signature=cKT~18x2uPI34ReHFkkjHKMPthkx4K00mJ5oKZfJbYJgpA47j28z16beBu6CG8gkwTTAb98YDx~KhFa1Y5UQfGFvYWGdzFvwNgiHqy1hElzA32NVihGPCxWuUiNKwoWXhVwGJE2hatheWY2fiIheVUHsZWYZpqLYJQvcCy~DMbh~q1zrWawr99ZaQm6qW0FaYhm5dk~Ca0jhlxeQYCzx8C2hV~AXxEbmxwmwrzefFnPfrE497D18XmH6il7N3KjTHzV83EXnBaJdIDCuzvV5LrqRemgU6fppBxgAwI~VyTuCH5KSgLlWgN4Vdk~Zu2zqJQmciFdvz9GPV1zd9TdI1A__&Key-Pair-Id=APKAJ22WF26BLHIHK4LQ',
+      'https://d20aasqov94ke3.cloudfront.net/gallery/images/d1554cc1cb6644d3d898cd491c3378a24cea8db0.jpg?Expires=1679168121&Signature=Y4j8e4IDoesywlTxM74fwd3x0aLaa7wingpRvYZ-ix4Azw4qmaCI24Tx0oxJLHjAVl~9cNtbhOvC4yWpBmGOY4Ua7lT0U~AHjeADM~tP0i5RXmzlZ1J8O9-tItK5h5LiK6nS2t9NNuOoClvQVFAuWRc829Ku8onlmOevLWeuTD7awZuEtIhGKSnFCh7N-dhOg7xFBrO4Lqvfu4l5r-vsGXTP6QbVAjWny6ec9Dw4JCq7OQVRvkMhtwfBTQKiCLI49iVi~ByDlFBToOv6-z~IU1pDvD9fXVsyuzG7K8kt88vZUmegl5divU1uQV2zKiS5u8mZS1rRF-wJKbwqkOxHyg__&Key-Pair-Id=APKAJ22WF26BLHIHK4LQ',
   },
   {
-    name: 'Plano Plus do Climate FieldView  ',
+    name: 'Plano Plus do Climate FieldView ',
     description:
-      'Minimize perdas, otimize seus resultados e tenha toda a eficiência de Climate FieldView™*',
-    secondDescription:
-      '* para clientes a partir de 3 estrelas no Impulso Bayer',
+      'Plano Plus do Climate FieldView™, minimiza perdas e otimiza resultados',
     photoUri:
-      'https://d20aasqov94ke3.cloudfront.net/gallery/images/d7ad1eafb7ecc87253684bad68bce55075731b22.jpg?Expires=1674334992&Signature=dJCfxdZWfY8Im1MOmt8M2B2DpfXoJgj88rjCxwmfg2vV-mcCYG73I6bWf863myfmEGurBCatGs~K1fZu-WeLPQQbPkuI3YTon1hyFPn6U5Cxu2c7vz9M4KH1GdpVPWFOXR20yCrFmVmGwzJUFxxrxNDFh06Q3C7hUCYvYL6rsEYlMNN4rOpMg~FKjPb3tx5kaBnN1nan5VlVXosCLgyAj4RCH71IpdczMMspWV4RDIMUDbfXxcdF42nkmUPvesV9rquFfnS2PMbLlSKq1amRSKNeu~Vs0cbezjG35Lg2e2S9ErHoTBbj03l~htpWHgWQXFoP4LS2KZ21n3nyA-6bDw__&Key-Pair-Id=APKAJ22WF26BLHIHK4LQ',
+      'https://d20aasqov94ke3.cloudfront.net/gallery/images/ca76f4a5bc4b50061f9ad842007ca686ad36fe31.jpg?Expires=1679168121&Signature=A9jQoKEly~dmsc0Usr-D0Ws03UVA4P5IYxttyaY~zdyyUZJCEu8H925RBk4D7OObtbnFHOelThVtEzd2CDg-z0yrSQnU-9Jiiwc3EZkuUbnjhO3ZcBNA6q~5UrYMiNqTu4IakL-sezYnai4AyM5OYBEmntABiwimvspacrvk5rNfID2fO4Obbf65lpUNIEFKgr44UkTVCBirlbOnEOVZZjV99sNj0zXo8G6htCMytlDXAwr8rdKGqI4ibZyfbREygZz89VsLi-5~~ShoIpuJbp4zj2ZWZmAkcu8AGPsucUypDaYG4n9m67CYyESMwF~eUM4e3yTiXIPaqg7j8u3-fg__&Key-Pair-Id=APKAJ22WF26BLHIHK4LQ',
   },
   {
     name: 'Consultoria 360',
     description:
-      'Conte com uma equipe de especialistas que vão ajudar a identificar as oportunidades da sua lavoura*',
-    secondDescription:
-      '* para clientes a partir de 3 estrelas no Impulso Bayer',
+      'Consultoria 360, uma equipe de especialistas a identificar as oportunidades da sua lavoura',
     photoUri:
-      'https://d20aasqov94ke3.cloudfront.net/gallery/images/1e30d2b0f3a226d04533080366419e8141d3cb5d.jpg?Expires=1674334726&Signature=VbnYnbU4cJglWPnZAcjiqbTEKDXSCG4BmEuZ362WMNQ1oe17DO~O0EmzQAKWm22XJJOmgyphYs2DViB58eQ17Bdh~sazXnd56yxpDOv8iVakZTHxezlU7HRs523y69G~5OQ3HsTgTdaPoDyjR8mH1u~rctqWsgTRUhMFu8uTOBZnuq-rBzmZ~8Ki3Fow4LnOJJuTfyK6bRIhCskYOMYND36eWX2Sl-LUJU2KSKHfVbeqGHhvIuSsyIW40Vtuz6HyiK~IpBepbk6VP85s~mkY30nRPaydooi4Hql8ZCOUUb5z6ypKN00bpaqTTr~KGcXqC5xhjCtZ3X7sOpOVAPm-4g__&Key-Pair-Id=APKAJ22WF26BLHIHK4LQ',
+      'https://d20aasqov94ke3.cloudfront.net/gallery/images/1224cd5771c24d73af0145366a0a4ff304180ba9.jpg?Expires=1679168121&Signature=dtsrvNq376qHg4OSo0GSb8LY~T8~KCFjgp8O0kJ5uB4f1mjAQDxbnFTyySiksaWfVL~4oGMh-RJmxESPTNtDKthdywxl3SoyxmoJHDKoLNKNNRtmAEVlGcG39LLvrJF08Fm9SSCb9fJnbGRXNpivAf82UZ5KuG180jRBBP~hWGZmy-f2v--lRtuTDuilH0j6LvY3WwE~2pyE4HFheV1IZy5ZPy3Il1EuTj38gtaHDNcbXv8ijI5z5nc4L4a6DY8SA~Q2HiIMZdUcnhJ1RTE3XJW7ZYgIEgevybsRpMlTooAw95Fnow5MJRAnYBhqe0jfzA~gMfz3YeFhentZMccFOw__&Key-Pair-Id=APKAJ22WF26BLHIHK4LQ',
   },
   {
     name: 'Conteúdo exclusivo powered by HSM',
     description:
-      'Acesse agora mesmo milhares de conteúdos exclusivos e leve ainda mais conhecimento para o seu negócio *',
-    secondDescription: '* para clientes a partir de 1 estrela no Impulso Bayer',
+      'Conteúdo exclusivo powered by HSM',
     photoUri:
-      'https://d20aasqov94ke3.cloudfront.net/gallery/images/27e9b2b26f6fd7695b38861eae7f15a2881333f7.jpg?Expires=1674334903&Signature=PvVZkcHTOaQDVW1g4uRQaOQWLCyfnlOLsmZZHNPbtMv6BeuHU4q1sQZqQlTOumsyy3INuOnA-t71EuagxyEPkVlQS~0WCRSmPit1fAhzocpRsDHW5L9XyULUBH~TJrTO7EfdU5JF2quvALKob2r9hMTa2rjuSGFUint28K4-xvWxU~HWeT9gHxKj28IwauNEExBupxPXNKBu6uDwdxMIfxvnBIP-BJvIDHQ1ILSdc2-aLA5CTsylQNwVfMTkqjJdB2NPQlIWI~PvH2SdUsAd5nEcxpVPSNLFE17S1cBoJJ7Mb~1itNd3nGtziF4M21TpHqOf13rn3JTaxil1NrXlSQ__&Key-Pair-Id=APKAJ22WF26BLHIHK4LQ',
+      'https://d20aasqov94ke3.cloudfront.net/gallery/images/01bca38a8c4d74ba249843efa99017747d1f9fb7.jpg?Expires=1679168121&Signature=Ts4rskftKrqySopaCY9QfoxMhlnYF5qRt3rgarap5ZGz8mUNIFFF9iOe~9l7nXGj5e0aDDlTOn1LjhGRm1Y4HqDZpDo4hiO99Rb8N4Y-leO~BRKqiTQuMo~MNHxAI~rNPR-bVNN-izMLFjlkcmfVikq4qkFP2E4vlP2e-UCAM5j2cZKHTMS1QkxZi43Jkt6xHWuv~0t4ZOHx3BnyDkT1t3wtrudq0GjHDQLFdp-MLvrqenI-ehv84t~B~KYUQhqs25Zhiq5RNbPRbMPZBH0jwz-4wquLSLijfMHtdDsvpZLE-iQcqEZd206VwIY4~yAiOUjzcd1kriThKjC4jN~vLw__&Key-Pair-Id=APKAJ22WF26BLHIHK4LQ',
   },
   {
     name: 'Hotel de Abelhas',
     description:
-      'Ofereça uma habitat seguro para as abelhas solitárias e otimize sua produtividade*',
-    secondDescription: '* para clientes 4 e 5 estrelas no Impulso Bayer',
+      'Hotel de Abelhas, um habitat seguro para as abelhas solitárias',
     photoUri:
-      'https://d20aasqov94ke3.cloudfront.net/gallery/images/9cf109ddb7b6d7f99b9264eaef5b5cd6e9d6f791.jpg?Expires=1674334903&Signature=kFg06A4pIEvX6X8PxYtAu8w0o9adSFa6MNoMc3lwm8knvw~051hQlz7zD1ONA9zXGLTWk9jfoLTWpiwGhjldz724MtiQRZFpzruoPiEp8DWsN99Iz0xmfeiBLLBkzQo1cIjBrWlvFlYqQDh2e44RYhW~28oWbJP8eqkQsf4tAi4DaADXC3LTGvLyy6hXO1L8RGKFaI8oOeZaqvU6Z~mYOF2PcvBDkyt7zKK-dM1uJF7St0HfVsgzoPn1bFDllnR-dq~dJKRFtP3r8FKl2Ysr-ZIpM3bs7ULWp6wYfZfvg1zVAFq21XMBQ6QFCvanf50NTp2igZ2-snHhQzK55PNRuA__&Key-Pair-Id=APKAJ22WF26BLHIHK4LQ',
+      'https://d20aasqov94ke3.cloudfront.net/gallery/images/39f1067aea6ea78f2ced18135fbb9ee541ecd658.jpg?Expires=1679168121&Signature=rXLkoGH3mN7r7ZMKbf7YxJ5nddfECw5vTegWLoMR0rDTWSIBs8QPLQRlPhNF9cDp7rJisXhexJDX6EhSkQjh7CRNRVcl3DL0M0QoyS5VBOrCfwWiZx9y4wbPTqjgTNjk7VSWz1jksCTeYBKHljW3cD7XZ8ZqVah1ltOVFAf6bGE4RtNfUVZLJvQEgkz-u6b7RrIo~UIg4YGOiMhaYtaPZJ9VXWdNkwaR0UAiv1cHAwT1EfR0BhQqtatwd4~Zhs4iFAfAha9qenYqTmVu1F4XBe1Uj38rd8xGD99OmGhfas~7NDYiLHb1vdRR~CEEQ1lJBdZ5Nyp3x66Rm7fLXYGbgQ__&Key-Pair-Id=APKAJ22WF26BLHIHK4LQ',
   },
   {
     name: 'Impulso Bayer Talks powered By HSM',
     description:
-      'Acompanhe especialistas debatendo sobre as principais tendências do mercado e o futuro do agronegócio*',
-    secondDescription: '* para todos os clientes do Impulso Bayer',
+      'Impulso Bayer Talks powered By HSM, as principais tendências do mercado e o futuro do agronegócio',    
     photoUri:
-      'https://d20aasqov94ke3.cloudfront.net/gallery/images/b333de8a0033e8fc89b44c8c345c2cde7337eade.jpg?Expires=1674334903&Signature=kJQxq8mbb42AmD378deiI6bTx2DQ0dXsyByEWUeVeHqoxO25FLc3S~h2E5xQMm9YIsERNy82TNmNkABjtWURx88isiKkOPKa-lD3lGKD3MMoh3AHbhVTL21WIaSXq8KbE8dJ9lB0FYiBVm9UKBvtUdzPyZHlbSWNqZufGxDlCUUV7QfI7T0lNGHlW9YlHj4O-FRn6WUzDA86~PYDHKzHcfUUrt~saWFDRukD5bHsCpdMrW7WSIPyf0xYYtuatW3SXS~l2M4Zag2abbTU0YXa65Tiutc04--ouHZoYiNE-NdCjoPu--EbHSA1pECx1ndGj9CQHBEyQZFd1ZQ7UOu5KQ__&Key-Pair-Id=APKAJ22WF26BLHIHK4LQ',
+      'https://d20aasqov94ke3.cloudfront.net/gallery/images/bec805810e216cf6649c611f3668098bc70da29e.jpg?Expires=1679168121&Signature=XmJusPOvyLbbWJMeVrbbXrc9c~Oey7MNAIdl313tItpxBWccKpgrQ~jnN~gXrERLzKtLK2rDKNfWEq16nf9y9TW6fj~zEoc887n6t3QLUl8FOP2w8heW0FWHA0ge-cgHMQDBZxIVAMXA8dUPPQ2r~Y5rXiy4lDzjgpcPCqji4aRFQMlwvM3CP8JPmIGhV8XaoQ7yNcqprG9B2eC3F4sErm-fQ-03cXNmm96xCFDY-KqRiuAnP0outK3~CXvs7O3jmpqyU6nbQISHSXOMdssZGdnFiV7R8dQCXeF1wSu-OKq8d17jbcMqo8VDPX6rrRPuf9LPaD0bcDfIZSLF79Egxw__&Key-Pair-Id=APKAJ22WF26BLHIHK4LQ',
   },
 ];

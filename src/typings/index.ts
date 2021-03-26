@@ -21,9 +21,7 @@ export interface Product extends Item {}
 
 export interface Service extends Item {}
 
-export interface Experience extends Item {
-  secondDescription: string;
-}
+export interface Experience extends Item {}
 
 export interface Company {
   id: number;
