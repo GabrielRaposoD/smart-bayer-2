@@ -15,13 +15,16 @@ export const createVideo = async ({
   defensiveProduct,
   foto1,
   foto2,
+  email,
 }) => {
   const myHeaders = new Headers();
   myHeaders.append('external-id', 'e5e16966-0218-46ad-a042-04241db0a9de');
   myHeaders.append('token', 'fe96c4647e55a2496cc3fade6e95b873');
 
   var formdata = new FormData();
-  formdata.append('[video]name', 'smart_bayer');
+  formdata.append('[video]name', name);
+  formdata.append('[video]email', name);
+  formdata.append('video[email]', email);
   formdata.append('[video]track_id', template.trackId);
   formdata.append('[video]template_id', template.id);
   formdata.append('[video][data]text_agricultor_01', farmerName);

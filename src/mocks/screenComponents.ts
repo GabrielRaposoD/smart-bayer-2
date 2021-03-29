@@ -20,6 +20,7 @@ export const items: ScreenComponent[] = [
     Component: Introduction,
     validation: Introduction.validation,
     hasMobileImg: true,
+    isCover: true,
   },
   {
     img: '/img/background-main-2.png',
