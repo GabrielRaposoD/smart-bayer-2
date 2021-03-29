@@ -31,7 +31,7 @@ const Defensive: SmartStep = () => {
               aparecerão no material final renderizado.
             </h3>
             <div className='mt-6 space-y-1 text-base font-medium text-gray-600'>
-              <label> Qual a marca do milho?</label>
+              <label> Qual o produto do defensivo?</label>
               <Field
                 name='defensive'
                 options={mappedDefensives}
@@ -39,7 +39,7 @@ const Defensive: SmartStep = () => {
               />
             </div>
             <div className='mt-6 space-y-1 text-base font-medium text-gray-600'>
-              <label> Qual o produto?</label>
+              <label> Qual o defensivo?</label>
               <Field
                 name='defensiveProduct'
                 disabled={!formik.values.defensive}
@@ -58,7 +58,7 @@ const Defensive: SmartStep = () => {
         <div className='w-full mt-6'>
           <Stepper
             buttonState={
-              formik.values.product && formik.values.company
+              formik.values.defensive && formik.values.defensiveProduct
                 ? ButtonState.normal
                 : ButtonState.disabled
             }

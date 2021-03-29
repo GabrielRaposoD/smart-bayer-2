@@ -11,7 +11,7 @@ const ServiceType: SmartStep = () => {
   const formik = useFormikContext<any>();
 
   const mappedServices = services.map((s) => {
-    return { value: s, label: s.name };
+    return { value: s, label: s.description };
   });
 
   return (

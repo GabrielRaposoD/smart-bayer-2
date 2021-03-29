@@ -28,7 +28,7 @@ const PictureInput = ({ name, label }: { name: string; label: string }) => {
   }
 
   return (
-    <div>
+    <div className='max-h-80'>
       <input
         type='file'
         id={`${name}-input`}
@@ -40,7 +40,7 @@ const PictureInput = ({ name, label }: { name: string; label: string }) => {
           e.currentTarget.value = null;
         }}
       />
-      <div className='relative bg-gray-100 rounded-lg h-80 flex flex-col items-center justify-center max-w-[145px]'>
+      <div className='relative bg-gray-100 rounded-lg max-h-80 h-80 flex flex-col items-center justify-center max-w-[145px]'>
         {formik.values[name] ? (
           <>
             <button
@@ -109,7 +109,7 @@ export const LogoUpload: SmartStep = () => {
       <div className='w-full mt-6'>
         <Stepper
           buttonState={
-            formik.values.foto1 && formik.values.foto2
+            formik.values?.foto1 && formik.values?.foto2
               ? ButtonState.normal
               : ButtonState.disabled
           }
@@ -124,7 +124,7 @@ LogoUpload.validation = Yup.object().shape({
     .test(
       'fileSize',
       'File Size is too large',
-      (value) => value.size <= FILE_SIZE
+      (value) => value?.size <= FILE_SIZE
     )
     .test('fileType', 'Unsupported File Format', (value) =>
       SUPPORTED_FORMATS.includes(value?.type)

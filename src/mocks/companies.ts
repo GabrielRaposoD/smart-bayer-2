@@ -15,6 +15,13 @@ export const companies: Company[] = [
           'https://d20aasqov94ke3.cloudfront.net/gallery/images/2f863592bb0e278c45bbec70cf7e6984df0165a7.png?Expires=1675536698&Signature=nnnNDJADuXQ29HuBfHmNJT4eHDd-q09FbCqebGWufQiLuiWbJraEt74ek6sOeIOjfX6qBLDBA2h3EnusbuWHoN3zfcv69rBkfz0R3QHaWda7IzxnD3qb2pD49XOUzWYg09eO8K5zoYxBVeRu~yyQvUSAgTE6rp6XmqHcU4NX7dAq4GpK0ejfZsI1KWRMDMnVz9BxQv9eUDX~9AW110dJiT5ojargMG0Y9k3lptUiicjKB4oC2ddKXxAwxZA92eGdEEGGn22fa4Xz-TIqCDlcmHHuWtHJV3xEVQLdI9fybuJ3ASdWiVGLpe3WyDjOn649y1pdkuW4yFWVw0e5IgFeag__&Key-Pair-Id=APKAJ22WF26BLHIHK4LQ',
       },
       {
+        name: 'DKB 363 PRO3®',
+        description:
+          'Qualidade de grãos com altíssima produtividade para a safrinha Tropical',
+        photoUri:
+          'https://d20aasqov94ke3.cloudfront.net/gallery/images/2f863592bb0e278c45bbec70cf7e6984df0165a7.png?Expires=1675536698&Signature=nnnNDJADuXQ29HuBfHmNJT4eHDd-q09FbCqebGWufQiLuiWbJraEt74ek6sOeIOjfX6qBLDBA2h3EnusbuWHoN3zfcv69rBkfz0R3QHaWda7IzxnD3qb2pD49XOUzWYg09eO8K5zoYxBVeRu~yyQvUSAgTE6rp6XmqHcU4NX7dAq4GpK0ejfZsI1KWRMDMnVz9BxQv9eUDX~9AW110dJiT5ojargMG0Y9k3lptUiicjKB4oC2ddKXxAwxZA92eGdEEGGn22fa4Xz-TIqCDlcmHHuWtHJV3xEVQLdI9fybuJ3ASdWiVGLpe3WyDjOn649y1pdkuW4yFWVw0e5IgFeag__&Key-Pair-Id=APKAJ22WF26BLHIHK4LQ',
+      },
+      {
         name: 'DKB 177 PRO3®',
         description: 'Foco em flexibilidade produtiva',
         photoUri:
@@ -49,13 +56,6 @@ export const companies: Company[] = [
       {
         name: 'DKB 230 PRO3®',
         description: 'O Hiperprecoce DEKALB',
-        photoUri:
-          'https://d20aasqov94ke3.cloudfront.net/gallery/images/2f863592bb0e278c45bbec70cf7e6984df0165a7.png?Expires=1675536698&Signature=nnnNDJADuXQ29HuBfHmNJT4eHDd-q09FbCqebGWufQiLuiWbJraEt74ek6sOeIOjfX6qBLDBA2h3EnusbuWHoN3zfcv69rBkfz0R3QHaWda7IzxnD3qb2pD49XOUzWYg09eO8K5zoYxBVeRu~yyQvUSAgTE6rp6XmqHcU4NX7dAq4GpK0ejfZsI1KWRMDMnVz9BxQv9eUDX~9AW110dJiT5ojargMG0Y9k3lptUiicjKB4oC2ddKXxAwxZA92eGdEEGGn22fa4Xz-TIqCDlcmHHuWtHJV3xEVQLdI9fybuJ3ASdWiVGLpe3WyDjOn649y1pdkuW4yFWVw0e5IgFeag__&Key-Pair-Id=APKAJ22WF26BLHIHK4LQ',
-      },
-      {
-        name: 'DKB380 PRO3®',
-        description:
-          'Excelente responsividade aos diferentes ambientes de produção',
         photoUri:
           'https://d20aasqov94ke3.cloudfront.net/gallery/images/2f863592bb0e278c45bbec70cf7e6984df0165a7.png?Expires=1675536698&Signature=nnnNDJADuXQ29HuBfHmNJT4eHDd-q09FbCqebGWufQiLuiWbJraEt74ek6sOeIOjfX6qBLDBA2h3EnusbuWHoN3zfcv69rBkfz0R3QHaWda7IzxnD3qb2pD49XOUzWYg09eO8K5zoYxBVeRu~yyQvUSAgTE6rp6XmqHcU4NX7dAq4GpK0ejfZsI1KWRMDMnVz9BxQv9eUDX~9AW110dJiT5ojargMG0Y9k3lptUiicjKB4oC2ddKXxAwxZA92eGdEEGGn22fa4Xz-TIqCDlcmHHuWtHJV3xEVQLdI9fybuJ3ASdWiVGLpe3WyDjOn649y1pdkuW4yFWVw0e5IgFeag__&Key-Pair-Id=APKAJ22WF26BLHIHK4LQ',
       },

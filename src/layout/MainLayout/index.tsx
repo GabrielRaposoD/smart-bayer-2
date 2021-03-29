@@ -60,7 +60,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({
           src={img}
           alt='Background'
           className={cs(
-            'md:w-full md:max-h-screen md:absolute md:block object-cover object-top min-w-full md:h-auto h-80',
+            'md:w-full md:max-h-screen md:absolute md:block object-cover object-top min-w-full md:min-h-full h-80',
             {
               'md:object-cover md:object-top': isCover,
               'md:object-fill md:object-center': !isCover,
