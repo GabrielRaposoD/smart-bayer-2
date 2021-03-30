@@ -27,7 +27,7 @@ const Oportunity: SmartStep = () => {
           </h1>
           <h3 className='text-shaft md:text-2xl mt-3 text-base font-medium'>
             Insira as informações abaixo para criarmos seu anúncio. Elas
-            aparecerão no material final renderizado.
+            aparecerão no material finalizado.
           </h3>
           <div className='mt-6 space-y-1 text-base font-medium text-gray-600'>
             <label>Qual a oportunidade?</label>

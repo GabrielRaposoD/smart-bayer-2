@@ -21,7 +21,7 @@ const FarmerName: SmartStep = ({ currentStep, setCurrentStep }) => {
               Qual o primeiro nome do agricultor?
             </h1>
             <h3 className='mt-3 text-base font-medium text-gray-600'>
-              O nome aparecerá no material final renderizado.
+              O nome aparecerá no material finalizado.
             </h3>
             <div className='2xl:mt-10 mt-8 text-base font-medium text-gray-600'>
               <TextInput name='farmerName' placeholder='Digite' />

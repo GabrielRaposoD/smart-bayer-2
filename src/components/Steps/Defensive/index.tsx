@@ -28,7 +28,7 @@ const Defensive: SmartStep = () => {
             </h1>
             <h3 className='mt-3 text-base font-medium text-gray-600'>
               Insira as informações abaixo para criarmos seu anúncio. Elas
-              aparecerão no material final renderizado.
+              aparecerão no material finalizado.
             </h3>
             <div className='mt-6 space-y-1 text-base font-medium text-gray-600'>
               <label> Qual o produto do defensivo?</label>

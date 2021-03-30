@@ -89,8 +89,11 @@ export const LogoUpload: SmartStep = () => {
         </div>
         <div className='w-full mt-16'>
           <h1 className='md:text-4xl text-2xl font-bold leading-snug text-gray-800'>
-            Insira 2 fotos do seu acompanhanmento com os agricultores
+            Insira 2 fotos do seu acompanhamento com os agricultores*
           </h1>
+          <h3 className='mt-3 text-base font-medium text-gray-600'>
+            *Solicite que seu cliente assine o Termo de Uso de Imagem.
+          </h3>
           <div className=' mt-4 text-base font-medium text-gray-800'>
             <p>Para melhor aproveitamento, recomendamos:</p>
             <ul className='mt-2 space-y-1 list-inside'>
