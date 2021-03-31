@@ -43,7 +43,9 @@ const ExperienceType: SmartStep = () => {
         <div className='w-full mt-6'>
           <Stepper
             buttonState={
-              formik.values.service ? ButtonState.normal : ButtonState.disabled
+              formik.values.experience
+                ? ButtonState.normal
+                : ButtonState.disabled
             }
           />
         </div>
