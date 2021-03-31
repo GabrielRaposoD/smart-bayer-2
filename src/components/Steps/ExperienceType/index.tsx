@@ -31,7 +31,7 @@ const ExperienceType: SmartStep = () => {
               aparecerão no material finalizado.
             </h3>
             <div className='mt-6 space-y-1 text-base font-medium text-gray-600'>
-              <label> Qual o experiência oferecido?</label>
+              <label> Qual a experiência oferecida?</label>
               <Field
                 name='experience'
                 options={mappedExperiences}

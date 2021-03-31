@@ -28,7 +28,7 @@ const PictureInput = ({ name, label }: { name: string; label: string }) => {
   }
 
   return (
-    <div className='max-h-80'>
+    <div className='max-h-80 w-[145px]'>
       <input
         type='file'
         id={`${name}-input`}
@@ -82,7 +82,7 @@ export const LogoUpload: SmartStep = () => {
   const formik = useFormikContext<any>();
 
   return (
-    <div className='md:px-0 md:min-h-0 md:pb-0 flex flex-col items-start justify-between h-full min-h-screen px-6 pb-10'>
+    <div className='md:px-0 md:min-h-0 md:pb-0 flex flex-col items-start justify-between w-full h-full min-h-screen px-6 pb-10'>
       <div className='flex flex-col'>
         <div className='md:mt-0 mt-6'>
           <Logo />

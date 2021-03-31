@@ -25,7 +25,7 @@ const Oportunity: SmartStep = () => {
           <h1 className='text-shaft md:text-4xl text-2xl font-bold leading-snug'>
             Quais são as informações do seu vídeo?
           </h1>
-          <h3 className='text-shaft md:text-2xl mt-3 text-base font-medium'>
+          <h3 className='mt-3 text-base font-medium text-gray-600'>
             Insira as informações abaixo para criarmos seu anúncio. Elas
             aparecerão no material finalizado.
           </h3>

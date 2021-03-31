@@ -26,6 +26,7 @@ export const items: ScreenComponent[] = [
     img: '/img/background-main-2.png',
     Component: VideoType,
     validation: VideoType.validation,
+    isCover: true,
   },
   {
     img: '/img/background-main-3.png',

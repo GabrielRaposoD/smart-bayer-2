@@ -13,17 +13,17 @@ const Introduction: SmartStep = () => {
         <Logo />
       </div>
       <div className='md:mt-0 mt-24'>
-        <h1 className='text-shaft md:text-4xl text-2xl font-bold'>
+        <h1 className='text-shaft xl:text-4xl text-2xl font-bold'>
           Experiência Integrada Bayer
         </h1>
-        <h3 className='text-shaft md:text-2xl mt-3 text-base font-medium'>
+        <h3 className='text-shaft xl:text-2xl mt-3 text-base font-medium'>
           Crie um vídeo customizado para o seu cliente com
         </h3>
-        <h3 className='text-shaft md:text-2xl text-base font-medium'>
+        <h3 className='text-shaft xl:text-2xl text-base font-medium'>
           as ações recomendadas no{' '}
           <span className='font-bold'>Fechamento de Safra</span>
         </h3>
-        <h3 className='text-shaft md:text-2xl text-base font-medium'>
+        <h3 className='text-shaft xl:text-2xl text-base font-medium'>
           e compartilhe esse material por WhatsApp.
         </h3>
       </div>

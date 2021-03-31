@@ -24,7 +24,7 @@ const Defensive: SmartStep = () => {
           <div className='mt-16'>
             <h1 className='md:text-4xl text-2xl font-bold leading-snug text-gray-800'>
               Quais são as informações do seu <br />
-              anúncio?
+              vídeo?
             </h1>
             <h3 className='mt-3 text-base font-medium text-gray-600'>
               Insira as informações abaixo para criarmos seu anúncio. Elas
