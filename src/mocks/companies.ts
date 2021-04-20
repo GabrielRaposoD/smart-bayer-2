@@ -168,6 +168,18 @@ export const companies: Company[] = [
         photoUri:
           'https://d20aasqov94ke3.cloudfront.net/gallery/images/81bd6d4ba2e9f33321429414849ff6347ba7c43f.png?Expires=1675536698&Signature=Q~R~s4-aE7l8h90lZXsQbp~YEEnvumRrDla4v-ybEsAnaSnLs3YffCcvxDo9N01Th~z-E7VrIwM0c64OvPLly0qCBzTpUFJOyVzCvA9vmuRJ1yaChlKUwdvaVd9InrqYKVU0iB8U40oI84-aPinflXbQxDkWF9ayzBNZgC7DXMr8lapAxRvb1SkwAY3ftoLmH1x~PL65kc55633WtUNaLH2KuHJ0wQ1M0AAzjCxiADWoxaEmWavizdOunukhOn2CI7fm0VKePu6Th-R6NCpjYSLV1-EFokNUS4XWb~6Y7fAMuep0xIb6ibLWdhzPRcAODFBd9sSeO0M1kxkZOwjIGQ__&Key-Pair-Id=APKAJ22WF26BLHIHK4LQ',
       },
+      {
+        name: 'AS 1666 PRO3®',
+        description: 'Estável e com bom perfil defensivo para doenças foliares',
+        photoUri:
+          'https://d20aasqov94ke3.cloudfront.net/gallery/images/81bd6d4ba2e9f33321429414849ff6347ba7c43f.png?Expires=1675536698&Signature=Q~R~s4-aE7l8h90lZXsQbp~YEEnvumRrDla4v-ybEsAnaSnLs3YffCcvxDo9N01Th~z-E7VrIwM0c64OvPLly0qCBzTpUFJOyVzCvA9vmuRJ1yaChlKUwdvaVd9InrqYKVU0iB8U40oI84-aPinflXbQxDkWF9ayzBNZgC7DXMr8lapAxRvb1SkwAY3ftoLmH1x~PL65kc55633WtUNaLH2KuHJ0wQ1M0AAzjCxiADWoxaEmWavizdOunukhOn2CI7fm0VKePu6Th-R6NCpjYSLV1-EFokNUS4XWb~6Y7fAMuep0xIb6ibLWdhzPRcAODFBd9sSeO0M1kxkZOwjIGQ__&Key-Pair-Id=APKAJ22WF26BLHIHK4LQ',
+      },
+      {
+        name: 'AS 1677 PRO3®',
+        description: 'Estável e com bom perfil defensivo para doenças foliares',
+        photoUri:
+          'https://d20aasqov94ke3.cloudfront.net/gallery/images/81bd6d4ba2e9f33321429414849ff6347ba7c43f.png?Expires=1675536698&Signature=Q~R~s4-aE7l8h90lZXsQbp~YEEnvumRrDla4v-ybEsAnaSnLs3YffCcvxDo9N01Th~z-E7VrIwM0c64OvPLly0qCBzTpUFJOyVzCvA9vmuRJ1yaChlKUwdvaVd9InrqYKVU0iB8U40oI84-aPinflXbQxDkWF9ayzBNZgC7DXMr8lapAxRvb1SkwAY3ftoLmH1x~PL65kc55633WtUNaLH2KuHJ0wQ1M0AAzjCxiADWoxaEmWavizdOunukhOn2CI7fm0VKePu6Th-R6NCpjYSLV1-EFokNUS4XWb~6Y7fAMuep0xIb6ibLWdhzPRcAODFBd9sSeO0M1kxkZOwjIGQ__&Key-Pair-Id=APKAJ22WF26BLHIHK4LQ',
+      },
     ],
   },
 ];

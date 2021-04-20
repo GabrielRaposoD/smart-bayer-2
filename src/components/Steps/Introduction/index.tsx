@@ -16,19 +16,19 @@ const Introduction: SmartStep = () => {
         <h1 className='text-shaft xl:text-4xl text-2xl font-bold'>
           Experiência Integrada Bayer
         </h1>
-        <h3 className='text-shaft xl:text-2xl mt-3 text-base font-medium'>
+        <h3 className='text-shaft xl:text-2xl md:whitespace-nowrap mt-3 text-sm font-medium'>
           Crie um vídeo customizado para o seu cliente com
         </h3>
-        <h3 className='text-shaft xl:text-2xl text-base font-medium'>
+        <h3 className='text-shaft xl:text-2xl md:whitespace-nowrap text-sm font-medium'>
           as ações recomendadas no{' '}
           <span className='font-bold'>Fechamento de Safra</span>
         </h3>
-        <h3 className='text-shaft xl:text-2xl text-base font-medium'>
+        <h3 className='text-shaft xl:text-2xl md:whitespace-nowrap text-sm font-medium'>
           e compartilhe esse material por WhatsApp.
         </h3>
       </div>
       <div className='md:mt-0 w-full mt-24'>
-        <h6 className='text-shaft md:text-base text-xs tracking-wide'>
+        <h6 className='text-shaft xl:text-base text-xs tracking-wide'>
           Ao clicar em Criar video, toda a informação inserida e criação dos
           materiais é de total responsabilidade do criador.
         </h6>

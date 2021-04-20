@@ -42,7 +42,7 @@ const Oportunity: SmartStep = () => {
       <div className='w-full mt-6'>
         <Stepper
           buttonState={
-            formik.values.template ? ButtonState.normal : ButtonState.disabled
+            formik.values.oportunity ? ButtonState.normal : ButtonState.disabled
           }
         />
       </div>

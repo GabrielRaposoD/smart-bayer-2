@@ -28,7 +28,7 @@ const PictureInput = ({ name, label }: { name: string; label: string }) => {
   }
 
   return (
-    <div className='max-h-80 w-[145px]'>
+    <div className='2xl:max-h-80 max-h-52 w-[145px]'>
       <input
         type='file'
         id={`${name}-input`}
@@ -40,11 +40,11 @@ const PictureInput = ({ name, label }: { name: string; label: string }) => {
           e.currentTarget.value = null;
         }}
       />
-      <div className='relative bg-gray-100 rounded-lg max-h-80 h-80 flex flex-col items-center justify-center max-w-[145px]'>
+      <div className='relative bg-gray-100 rounded-lg 2xl:h-80 2xl:max-h-80 max-h-52 h-52 flex flex-col items-center justify-center max-w-[145px]'>
         {formik.values[name] ? (
           <>
             <button
-              className='absolute -mr-1 -mt-1 top-0 right-0 bg-red-500 flex flex-col items-center justify-center font-light text-xs rounded-full text-white w-[19px] h-[19px]'
+              className='overflow-visible absolute -mr-1 -mt-1 top-0 right-0 bg-red-500 flex flex-col items-center justify-center font-light text-xs rounded-full text-white w-[19px] h-[19px]'
               onClick={() => {
                 formik.setFieldValue(name, null);
               }}
@@ -54,7 +54,7 @@ const PictureInput = ({ name, label }: { name: string; label: string }) => {
             <img
               src={URL.createObjectURL(formik.values[name])}
               alt='Company Logo'
-              className='w-40'
+              className=' w-40 overflow-hidden'
             />
           </>
         ) : (
@@ -96,13 +96,13 @@ export const LogoUpload: SmartStep = () => {
           </h3>
           <div className=' mt-4 text-base font-medium text-gray-800'>
             <p>Para melhor aproveitamento, recomendamos:</p>
-            <ul className='mt-2 space-y-1 list-inside'>
+            <ul className='2xl:text-base md:text-sm mt-2 space-y-1 text-xs list-inside'>
               <li>- Formato PNG ou JPG</li>
               <li>- Formato vertical</li>
               <li>- Peso máximo de 16MB</li>
             </ul>
           </div>
-          <div className='flex flex-row mt-4 space-x-4'>
+          <div className=' flex flex-row mt-4 space-x-4'>
             <PictureInput label='foto 1' name='foto1' />
             <PictureInput label='foto 2' name='foto2' />
           </div>

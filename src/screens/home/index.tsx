@@ -7,7 +7,7 @@ import { MainLayout } from '@layout/index';
 // Components Import
 import { StepsController } from '@components/StepsController';
 import { items as StepItems } from 'mocks/screenComponents';
-import { Form, useFormikContext } from 'formik';
+import { Form } from 'formik';
 import { StepContext } from 'context/formStepsContext';
 
 import { templates } from '@mocks/templates';
